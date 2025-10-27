@@ -16,7 +16,7 @@
   "commands": [
     {
       "name": "speedtest",
-      "title": "Speedtest",
+      "title": "Speedtest by Ookla",
       "subtitle": "Ookla",
       "description": "Internet Speedtest by Ookla",
       "mode": "view"
