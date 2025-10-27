@@ -7,8 +7,8 @@ export default function Command() {
   try {
     output = execSync("/opt/homebrew/bin/speedtest --accept-license --accept-gdpr", { encoding: "utf-8" });
   } catch (error: any) {
-    output = error.message;
+    output = `Error: Failed to run speedtest`;
   }
 
-  return <Detail markdown={output} />;
+  return <Detail markdown={`# Speedtest by Ookla\n\n${output}`} />;
 }
