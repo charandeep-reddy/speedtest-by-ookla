@@ -26,8 +26,19 @@ This extension provides a quick and convenient way to test your internet connect
    ```bash
    brew install speedtest-cli
    ```
-2. Install this Raycast extension
-3. Run the speedtest command from Raycast
+2. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   cd speedtest-by-ookla
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run in development mode:
+   ```bash
+   npm run dev
+   ```
 
 ## 🎯 Usage
 
