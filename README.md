@@ -16,7 +16,7 @@ This extension provides a quick and convenient way to test your internet connect
 
 ## 📋 Requirements
 
-- 🔧 Ookla Speedtest CLI installed via Homebrew (`brew install speedtest-cli`)
+- 🔧 Ookla Speedtest CLI installed via Homebrew (see Installation section)
 - 🌐 Internet connection
 - 🍎 macOS
 
@@ -24,11 +24,13 @@ This extension provides a quick and convenient way to test your internet connect
 
 1. Install Ookla Speedtest CLI using Homebrew:
    ```bash
-   brew install speedtest-cli
+   brew tap teamookla/speedtest
+   brew update
+   brew install speedtest --force
    ```
 2. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/charandeep-reddy/speedtest-by-ookla.git
    cd speedtest-by-ookla
    ```
 3. Install dependencies:
@@ -58,6 +60,6 @@ This extension provides a quick and convenient way to test your internet connect
 ## 🆘 Troubleshooting
 
 If you encounter issues:
-- 🔧 Ensure Speedtest CLI is installed: `brew install speedtest-cli`
+- 🔧 Ensure Speedtest CLI is installed: follow the Installation section above
 - 📍 Check that the CLI is accessible at `/opt/homebrew/bin/speedtest`
 - 🌐 Verify your internet connection is working
