@@ -24,7 +24,9 @@ This extension provides a quick and convenient way to test your internet connect
 
 1. Install Ookla Speedtest CLI using Homebrew:
    ```bash
-   brew install speedtest-cli
+   brew tap teamookla/speedtest
+   brew update
+   brew install speedtest --force
    ```
 2. Clone this repository:
    ```bash
