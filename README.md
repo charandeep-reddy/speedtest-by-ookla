@@ -16,7 +16,7 @@ This extension provides a quick and convenient way to test your internet connect
 
 ## 📋 Requirements
 
-- 🔧 Ookla Speedtest CLI installed via Homebrew (`brew install speedtest-cli`)
+- 🔧 Ookla Speedtest CLI installed via Homebrew (see Installation section)
 - 🌐 Internet connection
 - 🍎 macOS
 
@@ -60,6 +60,6 @@ This extension provides a quick and convenient way to test your internet connect
 ## 🆘 Troubleshooting
 
 If you encounter issues:
-- 🔧 Ensure Speedtest CLI is installed: `brew install speedtest-cli`
+- 🔧 Ensure Speedtest CLI is installed: follow the Installation section above
 - 📍 Check that the CLI is accessible at `/opt/homebrew/bin/speedtest`
 - 🌐 Verify your internet connection is working
